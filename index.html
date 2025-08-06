@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>46a4e2ca-28c0-48a3-a254-a0f3df2ea9df</title>
+    <meta name="description" content="Electronic Music Festival - Techno & Trance" />
+    <meta name="author" content="Lovable" />
+    <link rel="stylesheet" id="swiper-css-css" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?ver=6.8.1" media="all">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="46a4e2ca-28c0-48a3-a254-a0f3df2ea9df" />
+    <meta property="og:description" content="Lovable Generated Project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+   
+ <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  </head>
+
+  <body>
+ <script>
+  window.addEventListener("load", function () {
+    const allElements = document.querySelectorAll("*");
+    allElements.forEach(el => {
+      const bg = getComputedStyle(el).backgroundImage;
+
+      // Normalize and check if the filename is in the background image string
+      if (bg.includes("hero-bg.jpg")) {
+        el.style.position = "fixed";
+        console.log("Set position: fixed on", el);
+      }
+    });
+  });
+</script>
+
+
+    <script> function initializeSwiperWithDelay() {
+        if (typeof Swiper === 'undefined') {
+            console.warn('Swiper library not loaded yet. Retrying initialization...');
+            setTimeout(initializeSwiperWithDelay, 200); // Retry after 200ms
+            return;
+        }
+
+        // Initialize Swiper slider
+        const swiper = new Swiper('.tms-team-member-slider', {
+            slidesPerView: 3, // Show 3 slides on desktop
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: false, // Temporarily disable loop
+            slidesPerGroup: 2, // Move 2 slides on navigation
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: 3, // Show 3 slides on desktop
+                    spaceBetween: 40,
+                },
+            },
+        });
+
+        console.log("Swiper initialized successfully:", swiper);
+        console.log("Number of slides found by Swiper:", swiper.slides.length);
+    }
+
+    initializeSwiperWithDelay();
+</script>
+<script src="/background-space.js"></script>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" id="swiper-js-js"></script>
+  </body>
+   
+</html>

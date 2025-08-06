@@ -1,0 +1,451 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 245 20% 95%;
+    --foreground: 220 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 15%;
+
+    --primary: 220 15% 15%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 180 15% 85%;
+    --secondary-foreground: 220 15% 25%;
+
+    --muted: 180 10% 88%;
+    --muted-foreground: 220 15% 45%;
+
+    --accent: 220 15% 15%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 80%;
+    --input: 220 15% 90%;
+    --ring: 200 80% 50%;
+
+    --radius: 1rem;
+
+    /* Festival-specific design tokens - Bright & Airy */
+    --neon-glow: 200 80% 50%;
+    --electric-purple: 280 60% 65%;
+    --glass-bg: 0 0% 100%;
+    --glass-border: 220 15% 80%;
+    
+    /* Gradients - Light and airy */
+    --gradient-hero: linear-gradient(135deg, hsl(245 20% 95%), hsl(200 30% 90%));
+    --gradient-glass: linear-gradient(145deg, hsl(0 0% 100% / 0.8), hsl(200 20% 95% / 0.6));
+    --gradient-neon: linear-gradient(45deg, hsl(200 80% 50%), hsl(280 60% 65%));
+    
+    /* Shadows and effects - Softer */
+    --shadow-glow: 0 0 20px hsl(var(--neon-glow) / 0.2);
+    --shadow-glass: 0 4px 20px rgba(0, 0, 0, 0.1);
+    --backdrop-blur: blur(20px);
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground overflow-x-hidden;
+    background-color: transparent;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card/20 backdrop-blur-xl border border-border/30 rounded-2xl;
+    box-shadow: var(--shadow-glass);
+  }
+  
+  .neon-glow {
+    filter: drop-shadow(0 0 10px hsl(var(--neon-glow) / 0.5));
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 20px hsl(var(--neon-glow) / 0.6);
+  }
+  
+  .floating-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .hero-background {
+    background: var(--gradient-hero);
+    position: relative;
+  }
+  
+  .hero-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 50%, hsl(var(--neon-glow) / 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, hsl(var(--electric-purple) / 0.1) 0%, transparent 50%);
+    pointer-events: none;
+  }
+}
+
+/* Basic styling for the slider container */
+.tms-team-member-slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.artist-name-slider {
+	    font-size: 1.25em;
+    margin: 0;
+    color: #333;
+	margin-bottom: -20px !important;
+    background: white;
+    width: fit-content;
+    padding: 10px;
+}
+
+.artist-credits-slider {
+	    background: white;
+    color: black;
+    padding: 10px;
+    width: fit-content;
+}
+
+.info-container {
+	    margin-top: -100px;
+    z-index: 10000;
+    position: relative;
+}
+
+.main-slider-wrap {
+	max-width: var(--wp--style--global--wide-size);
+	background: black;
+	margin-block-start: 0px;
+	
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+/* Card hover effect */
+
+
+.tms-card-front {
+    padding: 15px;
+    text-align: center;
+}
+
+.tms-profile-photo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.tms-card-front h3 {
+    font-size: 1.25em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.tms-card-front p {
+    font-size: 1em;
+    color: #777;
+}
+
+
+
+/* Back of the card */
+.tms-card-back {
+    text-align: center;
+	color: white;
+}
+
+.tms-card-back p {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.tms-card-back a {
+    display: inline-block;
+    margin: 5px;
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+.tms-card-back a:hover {
+    text-decoration: underline;
+}
+
+/* Show the back of the card when hovering */
+
+
+/* Swiper Navigation Buttons */
+.swiper-button-next, .swiper-button-prev {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Swiper Pagination */
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    background-color: #000;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.swiper-pagination-bullet:hover {
+    opacity: 1;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 640px) {
+    .tms-team-member-card {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .tms-team-member-card {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .tms-team-member-card {
+        max-width: 70%;
+    }
+	.hide-on-mobile, .swiper-button-next, .swiper-button-prev {
+ display: none !important;
+}
+	
+	.tms-profile-photo {
+    width: 171px !important;
+    height: auto;
+    margin-bottom: 15px;
+}
+	
+	.less-margin-on-mobile {
+		margin-top: 200px;
+	}
+}
+
+.tms-team-member-card .tms-card-inner {
+	
+    transform-style: preserve-3d; /* Allows child elements to transform in 3D space */
+    transition: transform 0.6s ease; /* Smooth transition for the inner card */
+    position: relative;
+}
+
+.tms-team-member-card.tms-3d-hover .tms-card-inner,  .tms-team-member-card:focus-within .tms-card-inner {
+    transform: rotateY(180deg); /* Rotates the card 180 degrees on hover */
+}
+
+.tms-card-front, .tms-card-back {
+
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hides the back side when facing away */
+}
+
+
+.tms-card-back {
+    transform: rotateY(180deg); /* Flips the back side so it appears correct when rotated */
+	position: absolute;
+	top: 0;
+}
+
+.tms-card-back:focus-within {
+	opacity: 1 !important;
+}
+
+.tms-card-back img {
+filter: invert(1);}
+
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.is-flipped .flip-card-inner,
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-subtitle-block {
+  color: white !important;
+}
+
+.via-background\/60 {
+  opacity: 0;
+}
+
+.bg-primary {
+  border: 2px solid white;
+}
+
+.bg-foreground\/90 {
+  border: 2px solid white;
+}
+
+.wp-block-separator {
+  margin-bottom: 3rem;
+  opacity: 0;
+}
+
+.ml-4 {margin-left: 10rem !important;}
+
+ body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+         body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        canvas#space-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+        }

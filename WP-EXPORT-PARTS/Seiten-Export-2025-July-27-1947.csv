@@ -1,0 +1,922 @@
+﻿ID,Title,Content,Excerpt,Date,"Post Type",Permalink,"Image URL","Image Title","Image Caption","Image Description","Image Alt Text","Image Featured","Attachment URL",Status,"Author ID","Author Username","Author Email","Author First Name","Author Last Name",Slug,Format,Template,Parent,"Parent Slug",Order,"Comment Status","Ping Status","Post Modified Date"
+69,Kasse,"<!-- wp:shortcode -->[tec_tickets_checkout]<!-- /wp:shortcode -->",,2025-01-27,page,https://vivalafiasko.de/tickets/tickets-checkout/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,tickets-checkout,,,79,tickets,0,closed,closed,2025-02-03
+70,"Bestellung abgeschlossen","<!-- wp:shortcode -->[tec_tickets_success]<!-- /wp:shortcode -->",,2025-01-27,page,https://vivalafiasko.de/tickets/tickets-order/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,tickets-order,,,79,tickets,0,closed,closed,2025-02-03
+79,Tickets,"<!-- wp:paragraph {""style"":{""spacing"":{""padding"":{""top"":""var:preset|spacing|20"",""bottom"":""var:preset|spacing|20"",""left"":""var:preset|spacing|40"",""right"":""var:preset|spacing|40""}}}} -->
+<p style=""padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--40)"">Hier könnt ihr eure Tickets sichern. Es gibt das reguläre Ticket und die Möglichkeit, das Festival mit einem Supporter-Ticket zusätzlich zu unterstützen. Der Preis für das reguläre Ticket steigt, sobald das Early-Bird-Kontingent ausverkauft ist. Egal, für welche Option ihr euch entscheidet – wir freuen uns, euch vor Ort zu sehen!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {""layout"":{""type"":""flex"",""justifyContent"":""right""}} -->
+<div class=""wp-block-buttons""><!-- wp:button {""className"":""is-style-outline"",""style"":{""border"":{""radius"":""0px""}}} -->
+<div class=""wp-block-button is-style-outline""><a class=""wp-block-button__link wp-element-button"" href=""https://vivalafiasko.de/agb/"" style=""border-radius:0px"">Allgemeine Geschäftsbedingungen</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->",,2025-01-27,page,https://vivalafiasko.de/tickets/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,tickets,,,0,0,0,closed,closed,2025-02-03
+88,Location,"<!-- wp:html -->
+<style>
+body {
+background: white;}
+</style>
+<!-- /wp:html -->
+
+<!-- wp:heading {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|40"",""left"":""0"",""right"":""0""},""padding"":{""left"":""var:preset|spacing|50""}}}} -->
+<h2 class=""wp-block-heading"" style=""margin-top:var(--wp--preset--spacing--40);margin-right:0;margin-left:0;padding-left:var(--wp--preset--spacing--50)"">Location</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {""style"":{""spacing"":{""padding"":{""left"":""var:preset|spacing|60""}}},""layout"":{""type"":""constrained""}} -->
+<div class=""wp-block-group"" style=""padding-left:var(--wp--preset--spacing--60)""><!-- wp:paragraph {""fontSize"":""medium""} -->
+<p class=""has-medium-font-size"">Das Festival steigt auf einer idyllischen Wiese in einem ruhigen Dorf, umgeben von Natur. Erlebe techno und house in einer einzigartigen Atmosphäre – tanzend unter freiem Himmel.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {""fontSize"":""medium""} -->
+<p class=""has-medium-font-size""> Bitte respektiere die Natur und das Gelände, damit wir auch in Zukunft an diesem besonderen Ort feiern können.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:heading {""level"":3,""style"":{""spacing"":{""padding"":{""left"":""var:preset|spacing|50""}}}} -->
+<h3 class=""wp-block-heading"" style=""padding-left:var(--wp--preset--spacing--50)"">Gelände</h3>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class=""wp-block-columns""><!-- wp:column -->
+<div class=""wp-block-column""><!-- wp:list {""style"":{""spacing"":{""margin"":{""right"":""0"",""left"":""var:preset|spacing|50""}}}} -->
+<ul style=""margin-right:0;margin-left:var(--wp--preset--spacing--50)"" class=""wp-block-list""><!-- wp:list-item {""style"":{""spacing"":{""margin"":{""right"":""0"",""left"":""0""}}},""fontSize"":""medium""} -->
+<li class=""has-medium-font-size"" style=""margin-right:0;margin-left:0""><strong>Zwei gleichwertige Stages</strong></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {""fontSize"":""medium""} -->
+<li class=""has-medium-font-size""><strong>WCs und warme Duschen</strong></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {""fontSize"":""medium""} -->
+<li class=""has-medium-font-size""><strong>Food-Court &amp; Chill-Area</strong></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {""fontSize"":""medium""} -->
+<li class=""has-medium-font-size""><strong>Ausreichend platz für Camping</strong></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {""fontSize"":""medium""} -->
+<li class=""has-medium-font-size""><strong>Parkplatz</strong></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {""fontSize"":""medium""} -->
+<li class=""has-medium-font-size""><strong>Freitag 10:00 Uhr <br>bis Montag 15:00 Uhr</strong></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class=""wp-block-column""><!-- wp:image {""lightbox"":{""enabled"":true},""id"":272,""sizeSlug"":""large"",""linkDestination"":""none"",""align"":""left""} -->
+<figure class=""wp-block-image alignleft size-large""><img src=""https://vivalafiasko.de/wp-content/uploads/2025/01/Bildschirmfoto-2025-01-29-um-20.56.21-1024x705.png"" alt=""Gezeichnete Karte des Festivalgeländes mit ausgewiesenen Bereichen für Zeltplätze, Bühnen und Notausgänge sowie andere Orte."" class=""wp-image-272""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|50"",""bottom"":""var:preset|spacing|50""}}}} -->
+<hr class=""wp-block-separator has-alpha-channel-opacity"" style=""margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)""/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {""level"":3,""style"":{""spacing"":{""padding"":{""left"":""var:preset|spacing|50""}}}} -->
+<h3 class=""wp-block-heading"" style=""padding-left:var(--wp--preset--spacing--50)"">Anfahrt</h3>
+<!-- /wp:heading -->
+
+<!-- wp:group {""style"":{""spacing"":{""padding"":{""left"":""var:preset|spacing|60""}}},""layout"":{""type"":""constrained""}} -->
+<div class=""wp-block-group"" style=""padding-left:var(--wp--preset--spacing--60)""><!-- wp:paragraph {""fontSize"":""medium""} -->
+<p class=""has-medium-font-size"">Die Location liegt zwischen Scheggerott und Wagersrott, An der Wagersrotter Straße / Ecke Bonsdamm.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {""fontSize"":""medium""} -->
+<p class=""has-medium-font-size"">Die nächsten Bahnhöfe sind Schleswig, Süderbrarup oder Flensburg.<br>In der Region gibt es das sogenannte Dorfshuttle von Nah.sh, das wir wärmstens empfehlen können. </p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:columns -->
+<div class=""wp-block-columns""><!-- wp:column {""width"":""1%""} -->
+<div class=""wp-block-column"" style=""flex-basis:1%""></div>
+<!-- /wp:column -->
+
+<!-- wp:column {""width"":""98%""} -->
+<div class=""wp-block-column"" style=""flex-basis:98%""><!-- wp:gutenberg-wpgmza/block /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {""width"":""1%""} -->
+<div class=""wp-block-column"" style=""flex-basis:1%""></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:html -->
+<style>
+.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: var(--wp--style--global--wide-size) !important;}
+</style>
+<!-- /wp:html -->",,2025-01-27,page,https://vivalafiasko.de/info/locatiion/,https://vivalafiasko.de/wp-content/uploads/2025/01/kevin-karte-fiasco.png|https://vivalafiasko.de/wp-content/uploads/2025/01/Bildschirmfoto-2025-01-29-um-20.56.21.png,"kevin karte fiasco|Bildschirmfoto 2025-01-29 um 20.56.21",|,|,|,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,locatiion,,,92,info,0,closed,closed,2025-07-27
+90,"Line Up","<!-- wp:html -->
+<style>body {
+background: white;}
+
+.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: var(--wp--style--global--wide-size) !important;
+</style>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2 class=""wp-block-heading"">Line Up</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Hier findet ihr alle Artists, die dieses Jahr dabei sind. Eine Mischung aus bekannten Namen und frischen Entdeckungen, die das Wochenende mit ihrer Musik prägen werden. Schaut euch um, entdeckt neue Favoriten und freut euch auf das, was kommt.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+[team_members]
+<!-- /wp:shortcode -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->",,2025-01-27,page,https://vivalafiasko.de/info/lineup/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,lineup,,,92,info,0,closed,closed,2025-07-27
+92,Info,,,2025-01-27,page,https://vivalafiasko.de/info/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,info,,,0,0,0,closed,closed,2025-01-27
+137,Home,"<!-- wp:image {""id"":612,""sizeSlug"":""full"",""linkDestination"":""none"",""align"":""center"",""className"":""header-image-fullwidth"",""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|80"",""bottom"":""var:preset|spacing|80""}}}} -->
+<figure class=""wp-block-image aligncenter size-full header-image-fullwidth"" style=""margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)""><img src=""https://vivalafiasko.de/wp-content/uploads/2025/02/fiasko-logo-neu.png"" alt="""" class=""wp-image-612""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|80"",""bottom"":""0""}}}} -->
+<h2 class=""wp-block-heading"" style=""margin-top:var(--wp--preset--spacing--80);margin-bottom:0"">Intro</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {""className"":""target bg-border"",""style"":{""spacing"":{""margin"":{""top"":""0"",""bottom"":""0""}}}} -->
+<p class=""target bg-border"" id=""target1"" style=""margin-top:0;margin-bottom:0"">Tauche ein in die Welt der elektronischen Tanzmusik – mit einer Mischung aus  Techno, House und Trance. Unser Festival vereint regionale Künstler, die die lokale Szene prägen, mit unseren eigenen Favoriten und Geheimtipps des Underground.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class=""wp-block-columns""><!-- wp:column {""width"":""100%""} -->
+<div class=""wp-block-column"" style=""flex-basis:100%""><!-- wp:columns {""isStackedOnMobile"":false} -->
+<div class=""wp-block-columns is-not-stacked-on-mobile""><!-- wp:column -->
+<div class=""wp-block-column""><!-- wp:image {""id"":182,""sizeSlug"":""full"",""linkDestination"":""none"",""align"":""center""} -->
+<figure class=""wp-block-image aligncenter size-full""><img src=""https://vivalafiasko.de/wp-content/uploads/2025/01/arrw.png"" alt="""" class=""wp-image-182""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class=""wp-block-column""><!-- wp:group {""className"":""less-margin-on-mobile"",""layout"":{""type"":""constrained""}} -->
+<div class=""wp-block-group less-margin-on-mobile""><!-- wp:heading {""textAlign"":""left"",""level"":3} -->
+<h3 class=""wp-block-heading has-text-align-left""><a href=""https://vivalafiasko.de/line-up/"" data-type=""page"" data-id=""90"">Line Up</a></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {""textAlign"":""left"",""level"":3} -->
+<h3 class=""wp-block-heading has-text-align-left""><a href=""https://vivalafiasko.de/event/viva-la-fiasko-festival-2025/"" data-type=""page"" data-id=""79"">Tickets</a></h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {""textAlign"":""left"",""level"":3} -->
+<h3 class=""wp-block-heading has-text-align-left""><a href=""https://vivalafiasko.de/anfahrt/"" data-type=""page"" data-id=""88"">Location</a></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph {""className"":""target""} -->
+<p class=""target"" id=""target2""></p>
+<!-- /wp:paragraph -->
+
+<style>
+.bg-border {
+    background: white;
+    padding: 20px;}
+body {
+  margin: 0;
+  padding: 0;background: white;
+z-index: -2;
+    position: relative;
+}
+<p>.tms-team-member-slider {
+overflow: hidden; }
+<p>.entry-content {
+  overflow-x: hidden;
+}
+<p>.content {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.target {
+  position: relative;
+}
+.image-wrapper {
+  position: absolute;
+  top: 50%;
+  transition: transform 2s ease-in-out;
+  z-index: -1;
+}
+.image-wrapper img {
+  width: 500px;
+  height: auto;
+}
+.image-wrapper.visible.left {
+  transform: translateY(-50%) translateX(+30vw);
+}
+.image-wrapper.visible.right {
+  transform: translateY(+0%) translateX(-30vw);
+}
+</style>
+<script>// Bilder und Ziel-Elemente zuordnen
+const targets = document.querySelectorAll('.target');
+const images = [
+  { src: 'https://vivalafiasko.de/wp-content/uploads/2025/02/objekt3.png', position: 'left' },
+  { src: 'https://vivalafiasko.de/wp-content/uploads/2025/02/objekt4.png', position: 'right' },
+];
+// Funktion zum Hinzufügen der Bilder
+function addImages() {
+  targets.forEach((target, index) => {
+    const imageWrapper = document.createElement('div');
+    imageWrapper.classList.add('image-wrapper');
+    if (images[index].position === 'right') {
+      imageWrapper.classList.add('right');
+      imageWrapper.style.left = '+60vw';
+    } else {
+      imageWrapper.style.left = '-50vw';
+      imageWrapper.classList.add('left');
+    }
+    const img = document.createElement('img');
+    img.src = images[index].src;
+    img.classList.add('hide-on-mobile')
+    imageWrapper.appendChild(img);
+    target.appendChild(imageWrapper);
+  });
+}
+// Bilder einfügen
+addImages();
+// Intersection Observer einrichten
+const observerOptions = {
+  root: null, // viewport
+  threshold: 0.9, // Element muss zu 90% sichtbar sein
+};
+let lastScrollY = window.scrollY;
+const observer = new IntersectionObserver((entries) => {
+  const currentScrollY = window.scrollY;
+  const scrollingUp = currentScrollY < lastScrollY;
+  lastScrollY = currentScrollY;
+
+  entries.forEach(entry => {
+    const imageWrapper = entry.target.querySelector('.image-wrapper');
+    if (entry.isIntersecting) {
+      imageWrapper.classList.add('visible');
+    } else if (scrollingUp) {
+      imageWrapper.classList.remove('visible');
+    }
+  });
+}, observerOptions);
+// Zielelemente beobachten
+targets.forEach(target => observer.observe(target));
+</script>
+<script>
+window.addEventListener(""scroll"", function () {
+    let yOffset = window.scrollY * 0.3; // Adjust the multiplier for more/less movement
+    document.body.style.backgroundPosition = `center ${yOffset}px`;
+});</script>
+
+<!-- wp:separator {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|50"",""bottom"":""var:preset|spacing|50""}}}} -->
+<hr class=""wp-block-separator has-alpha-channel-opacity"" style=""margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)""/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class=""wp-block-heading"">Tickets</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {""className"":""bg-border"",""layout"":{""type"":""constrained""}} -->
+<div class=""wp-block-group bg-border""><!-- wp:paragraph -->
+<p>Der Vorverkauf für das Viva la Fiasko ist ab sofort eröffnet. Neben dem regulären Ticket gibt es noch eine Option auf das Supporter-Ticket. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Mit dem Supporter Ticket habt ihr keinerlei Vorzüge gegenüber dem regulären, ihr unterstützt damit aber die Sicherung und den Fortbestand des Projekts und erreicht damit unsere ewige Dankbarkeit</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {""layout"":{""type"":""flex"",""justifyContent"":""right""}} -->
+<div class=""wp-block-buttons""><!-- wp:button {""className"":""is-style-outline"",""style"":{""border"":{""radius"":""0px""}}} -->
+<div class=""wp-block-button is-style-outline""><a class=""wp-block-button__link wp-element-button"" href=""https://vivalafiasko.de/event/viva-la-fiasko-festival-2025/"" style=""border-radius:0px"">Tickets kaufen</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:separator {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|50"",""bottom"":""var:preset|spacing|50""}}}} -->
+<hr class=""wp-block-separator has-alpha-channel-opacity"" style=""margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)""/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {""style"":{""spacing"":{""margin"":{""bottom"":""var:preset|spacing|40""}}}} -->
+<h2 class=""wp-block-heading"" style=""margin-bottom:var(--wp--preset--spacing--40)"">Line Up</h2>
+<!-- /wp:heading -->
+
+<!-- wp:shortcode -->
+[team_members_slider]
+<!-- /wp:shortcode -->
+
+<!-- wp:buttons {""layout"":{""type"":""flex"",""justifyContent"":""right""}} -->
+<div class=""wp-block-buttons""><!-- wp:button {""className"":""is-style-outline"",""style"":{""border"":{""radius"":""0px""}}} -->
+<div class=""wp-block-button is-style-outline""><a class=""wp-block-button__link wp-element-button"" href=""https://vivalafiasko.de/info/line-up/"" style=""border-radius:0px""><strong>Zum Line Up</strong></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:separator {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|50"",""bottom"":""var:preset|spacing|50""}}}} -->
+<hr class=""wp-block-separator has-alpha-channel-opacity"" style=""margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)""/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class=""wp-block-heading"">Anfahrt </h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Die Location befindet sich unweit der Schlei in Schleswig-Holstein, Norddeutschland. Die nächstgelegenen Bahnhöfe sind Süderbrarup, Schleswig oder Eckernförde. Parkplätze vor Ort sind begrenzt verfügbar. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class=""wp-block-columns""><!-- wp:column -->
+<div class=""wp-block-column""><!-- wp:gutenberg-wpgmza/block /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|80"",""bottom"":""var:preset|spacing|80""}}}} -->
+<hr class=""wp-block-separator has-alpha-channel-opacity"" style=""margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)""/>
+<!-- /wp:separator -->",,2025-01-28,page,https://vivalafiasko.de/,https://vivalafiasko.de/wp-content/uploads/2025/01/Bildschirmfoto-2025-01-27-um-18.20.44-1.png|https://vivalafiasko.de/wp-content/uploads/2025/01/arrw.png|https://vivalafiasko.de/wp-content/uploads/2025/01/aditya-chinchure-ZhQCZjr9fHo-unsplash-scaled.jpg|https://vivalafiasko.de/wp-content/uploads/2025/01/post-example-image.png|https://vivalafiasko.de/wp-content/uploads/2025/01/photo_5251742639701750205_y.jpg|https://vivalafiasko.de/wp-content/uploads/2025/02/vivalafiasko-logo.png|https://vivalafiasko.de/wp-content/uploads/2025/02/vivalafiasko-logo-1.png|https://vivalafiasko.de/wp-content/uploads/2025/02/vivalafiasko-logo-2.png|https://vivalafiasko.de/wp-content/uploads/2025/02/fiasko-logo-neu.png,"Bildschirmfoto 2025-01-27 um 18.20.44|arrw|aditya-chinchure-ZhQCZjr9fHo-unsplash|post-example-image|photo_5251742639701750205_y|vivalafiasko-logo|vivalafiasko-logo|vivalafiasko-logo|fiasko logo neu",||||||||,||||||||,||||||||,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,home,,,0,0,0,closed,closed,2025-02-10
+305,Datenschutz,"<!-- wp:heading {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|50""}}}} -->
+<h2 class=""wp-block-heading"" style=""margin-top:var(--wp--preset--spacing--50)"">Datenschutz</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Datenschutzrichtlinie</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>1. Einleitung</strong> Der Schutz Ihrer personenbezogenen Daten ist uns ein wichtiges Anliegen. In dieser Datenschutzrichtlinie informieren wir Sie darüber, welche Daten wir erheben, wie wir diese verwenden und welche Rechte Ihnen gemäß der Datenschutz-Grundverordnung (DSGVO) zustehen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>2. Verantwortlicher</strong> Verantwortlich für die Datenverarbeitung ist: Kevin Matthiessen An der Kreisstraße 5, 24392 Scheggerott <a>info@vivalafiasko.de</a> 04641/7777</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>3. Erhebung und Verarbeitung personenbezogener Daten</strong> Wir erheben und verarbeiten Ihre personenbezogenen Daten nur, soweit dies für die Bereitstellung unserer Website, den Ticketverkauf und unsere Dienstleistungen erforderlich ist. Dies umfasst:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Name, Vorname</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>E-Mail-Adresse</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Zahlungsinformationen</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Rechnungsadresse</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>IP-Adresse</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Nutzungsdaten unserer Website (z. B. besuchte Seiten, Klickverhalten)</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>4. Zweck der Datenverarbeitung</strong> Ihre Daten werden zu folgenden Zwecken verarbeitet:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Abwicklung des Ticketkaufs und Bereitstellung der Tickets</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Erfüllung gesetzlicher Verpflichtungen (z. B. steuerliche Vorschriften)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Bereitstellung und Verbesserung unserer Website und Services</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Kundenservice und Kommunikation</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Marketingzwecke, sofern eine Einwilligung vorliegt</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>5. Rechtsgrundlagen der Verarbeitung</strong> Die Verarbeitung Ihrer Daten erfolgt auf Grundlage der folgenden Rechtsgrundlagen gemäß Art. 6 Abs. 1 DSGVO:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO) bei Ticketkäufen</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Erfüllung rechtlicher Verpflichtungen (Art. 6 Abs. 1 lit. c DSGVO)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO) zur Verbesserung unseres Angebots</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) für Marketingzwecke</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>6. Weitergabe von Daten an Dritte</strong> Ihre Daten werden nur dann an Dritte weitergegeben, wenn dies für die Vertragserfüllung oder zur Erfüllung gesetzlicher Vorgaben erforderlich ist. Dazu gehören:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Zahlungsdienstleister</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Ticketing-Plattformen</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>IT-Dienstleister zur Wartung unserer Website</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Behörden bei gesetzlichen Verpflichtungen</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>7. Speicherdauer</strong> Ihre personenbezogenen Daten werden nur so lange gespeichert, wie dies für die Erfüllung der Zwecke erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen. Danach werden die Daten gelöscht oder anonymisiert.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>8. Ihre Rechte</strong> Sie haben gemäß DSGVO folgende Rechte:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Recht auf Auskunft (Art. 15 DSGVO)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Recht auf Löschung (Art. 17 DSGVO)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Recht auf Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Recht auf Widerruf einer erteilten Einwilligung (Art. 7 Abs. 3 DSGVO)</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Zur Ausübung Ihrer Rechte können Sie uns unter den oben angegebenen Kontaktdaten erreichen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>9. Datensicherheit</strong> Wir setzen technische und organisatorische Maßnahmen ein, um Ihre Daten gegen unbefugten Zugriff, Verlust oder Missbrauch zu schützen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>10. Änderungen der Datenschutzrichtlinie</strong> Wir behalten uns vor, diese Datenschutzrichtlinie bei Bedarf zu aktualisieren. Die aktuelle Version ist stets auf unserer Website verfügbar.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stand: 31.1.2025</p>
+<!-- /wp:paragraph -->",,2025-01-30,page,https://vivalafiasko.de/rechtliches/datenschutz/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,datenschutz,,,495,rechtliches,0,closed,closed,2025-02-03
+307,Impressunm,"<!-- wp:heading {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|50""}}}} -->
+<h2 class=""wp-block-heading"" style=""margin-top:var(--wp--preset--spacing--50)"">Impressum</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Impressum</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Angaben gemäß § 5 TMG:</strong> Kevin Matthiessen An der Kreisstraße 5 24392 Scheggerott</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Kontakt:</strong> Telefon: 04641/7777 E-Mail: <a>info@vivalafiasko.de</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Vertreten durch:</strong> Kevin Matthiessen</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Handelsregisternummer</strong> :HRB 17395 FL</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong> Kevin Matthiessen An der Kreisstraße 5 24392 Scheggerott</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>EU-Streitschlichtung:</strong> Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a>https://ec.europa.eu/consumers/odr/</a> Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Haftung für Inhalte:</strong> Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Haftung für Links:</strong> Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Urheberrecht:</strong> Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.</p>
+<!-- /wp:paragraph -->",,2025-01-30,page,https://vivalafiasko.de/rechtliches/impressunm/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,impressunm,,,495,rechtliches,0,closed,closed,2025-02-03
+319,"Cookie-Richtlinie (EU)","<!-- wp:complianz/document {""title"":""Cookie-Richtlinie (EU)"",""selectedDocument"":""cookie-statement""} /-->",,2025-01-30,page,https://vivalafiasko.de/rechtliches/cookie-richtlinie-eu/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,cookie-richtlinie-eu,,,495,rechtliches,0,closed,closed,2025-02-03
+326,Form,"<!-- wp:html -->
+<style>
+/* Formular Container */
+#team-member-submission-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Formular Überschrift */
+#team-member-submission-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Beschriftungen der Eingabefelder */
+#team-member-submission-form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Eingabefelder */
+#team-member-submission-form input[type=""text""],
+#team-member-submission-form input[type=""email""],
+#team-member-submission-form input[type=""url""],
+#team-member-submission-form input[type=""datetime-local""],
+#team-member-submission-form select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+#team-member-submission-form input[type=""file""] {
+    margin: 10px 0;
+}
+
+/* Textarea styling (optional) */
+#team-member-submission-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+/* Checkbox Styling */
+#team-member-submission-form input[type=""checkbox""] {
+    margin-right: 10px;
+}
+
+#team-member-submission-form .checkbox-group {
+    margin-bottom: 20px;
+}
+
+/* Absende-Button */
+#team-member-submission-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c6bc0;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#team-member-submission-form button:hover {
+    background-color: #3f4e92;
+}
+
+/* Focus Effekt für die Eingabefelder */
+#team-member-submission-form input[type=""text""]:focus,
+#team-member-submission-form input[type=""email""]:focus,
+#team-member-submission-form input[type=""url""]:focus,
+#team-member-submission-form input[type=""datetime-local""]:focus,
+#team-member-submission-form select:focus {
+    border-color: #5c6bc0;
+    outline: none;
+}
+
+/* Fehlermeldungen und Hinweistexte */
+#team-member-submission-form .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Sicherstellen, dass das Formular auch auf mobilen Geräten gut aussieht */
+@media (max-width: 600px) {
+    #team-member-submission-form {
+        padding: 20px;
+    }
+
+    #team-member-submission-form button {
+        font-size: 1rem;
+    }
+}
+
+</style>
+<!-- /wp:html -->
+
+<!-- wp:shortcode -->
+[team_member_submission_form]
+<!-- /wp:shortcode -->",,2025-02-01,page,https://vivalafiasko.de/intern/form/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,form,,,490,intern,0,closed,closed,2025-02-03
+358,table,"<!-- wp:shortcode -->
+[team_member_table]
+<!-- /wp:shortcode -->",,2025-02-01,page,https://vivalafiasko.de/intern/table/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,table,,,490,intern,0,closed,closed,2025-02-03
+455,danke-artist-submission,"<!-- wp:group {""align"":""wide"",""layout"":{""type"":""constrained""}} -->
+<div class=""wp-block-group alignwide""><!-- wp:heading {""textAlign"":""center"",""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|80""}}}} -->
+<h2 class=""wp-block-heading has-text-align-center"" style=""margin-top:var(--wp--preset--spacing--80)"">Danke!</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {""align"":""center""} -->
+<p class=""has-text-align-center"">Wir melden uns.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->",,2025-02-02,page,https://vivalafiasko.de/intern/form/danke-artist-submission/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,danke-artist-submission,,,326,intern/form,0,closed,closed,2025-02-03
+490,Intern,,,2025-02-03,page,https://vivalafiasko.de/intern/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,intern,,,0,0,0,closed,closed,2025-02-03
+495,Rechtliches,,,2025-02-03,page,https://vivalafiasko.de/rechtliches/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,rechtliches,,,0,0,0,closed,closed,2025-02-03
+498,News,,,2025-02-03,page,https://vivalafiasko.de/info/news/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,news,,,92,info,0,closed,closed,2025-02-03
+504,AGB,"<!-- wp:group {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|60""}}},""layout"":{""type"":""constrained"",""contentSize"":""100vw""}} -->
+<div class=""wp-block-group"" style=""margin-top:var(--wp--preset--spacing--60)""><!-- wp:html -->
+<style>
+.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: var(--wp--style--global--wide-size);}
+</style>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2 class=""wp-block-heading""><strong>Allgemeine Geschäftsbedingungen (AGB) für Besucher des Viva la Fiasko Festivals 2025</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {""ordered"":true} -->
+<ol class=""wp-block-list""><!-- wp:list-item -->
+<li><strong>Veranstalter</strong>: Viva la Fiasko UG<br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten auf dem gesamten Festivalgelände. Sie gelten zwischen dem Käufer einer Eintrittskarte („Besucher“) und dem Veranstalter, der Viva la Fiasko UG. Durch den Kauf einer Eintrittskarte schließt der Besucher mit dem Veranstalter einen Veranstaltungsvertrag und erwirbt ein Besuchsrecht für die Veranstaltung. Bei Kauf mehrerer Eintrittskarten bei einem Verkaufsvorgang, vertritt der Käufer die übrigen Besucher und der Veranstalter schließt mit jedem Besucher einen Vertrag über den Besuch der Veranstaltung. Jeder Besucher erkennt die Rechte und Pflichten in diesen AGB sowie die Park- und Campingordnung sowie den Festival Guide an.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Der Einlass erfolgt nur mit gültiger Eintrittskarte. Der Kartenerwerb und Zugang zum Festival sind ausschließlich Personen über 21 Jahren gestattet. Ein Weiterverkauf der Eintrittskarten ist nicht gestattet, wenn damit eine Gewinnerzielung beabsichtigt ist. Der Veranstalter behält sich das Recht vor, dem Festivalbesucher aus wichtigem Grund den Einlass zu verwehren. In diesem Fall hat der Festivalbesucher nur Anspruch auf Erstattung des Nennwertes der Eintrittskarte, es sei denn, die Verweigerung des Einlasses ist aus einem wichtigen Grund in der Person des Festivalbesuchers begründet. Ein darüber hinausgehender Schadensersatzanspruch ist ausgeschlossen, es sei denn, der Veranstalter handelt grob fahrlässig oder mit Vorsatz. Der Zutritt zum Festivalgelände wird nur mit einem sogenannten Besucherbändchen gestattet. Dieses Besucherbändchen erhält der Gast im Tausch gegen eine gültige Eintrittskarte am Einlass zum Festivalgelände.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Sofern die Veranstaltung vor Beginn abgesagt wird, besteht nur ein Anspruch auf Erstattung des Nennwertes der Eintrittskarte. Die Veranstaltung kann bis zum Beginn ohne Angabe von Gründen abgesagt werden. Ein darüber hinausgehender Schadensersatzanspruch besteht nicht. Die Veranstaltung findet bei jeder Witterung statt, solange der Veranstalter die Umstände des Wetters verantworten kann. Sollten durch Witterungsumstände Gefahren für Körper und Gesundheit bestehen, wird die Veranstaltung sofort abgebrochen. In diesem Fall sowie bei Abbruch der Veranstaltung aufgrund höherer Gewalt, behördlicher Anordnung oder gerichtlicher Entscheidung, sowie der Gefährdung von Festivalbesuchern durch Fehlverhalten anderer oder drohender Eskalation, besteht kein Rückvergütungs- oder Schadensersatzanspruch, es sei denn, dem Veranstalter kann grobe Fahrlässigkeit oder Vorsatz zur Last gelegt werden. Der Veranstalter behält sich das Recht vor, aus Sicherheitsgründen den Zugang zu Bereichen des Festivalgeländes, wie z.B. Bühnen wegen Überfüllung zu beschränken. Hieraus ergeben sich keine Schadensersatzansprüche, da eine genaue Planbarkeit der Besucherströme unmöglich ist.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Dem Festivalbesucher ist bewusst, dass Musikfestivals eine Umgebung mit hohem Schallpegel darstellen. Der Veranstalter trifft die notwendige Vorsorge, um dauerhafte Hör- oder Gesundheitsschäden zu unterbinden. Gleichwohl wird den Festivalbesuchern zum Schutz vor etwaigen Hör- oder Gesundheitsschäden dringend empfohlen, Ohrstöpsel zu benutzen. Der Besuch der Veranstaltung erfolgt auf eigene Gefahr. Eine Haftung des Veranstalters für auftretende Hör- oder Gesundheitsschäden aufgrund mangelnder Vorsorge ist daher ausgeschlossen, es sei denn, der Veranstalter handelt grob fahrlässig oder mit Vorsatz.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Schadensersatzansprüche gegenüber dem Veranstalter aufgrund von Fahrlässigkeit sind ausgeschlossen. Dies gilt auch für seine gesetzlichen Vertreter oder Erfüllungsgehilfen. Diese Regelung gilt nicht für Schäden aufgrund Verletzung des Körpers, Lebens oder der Gesundheit sowie bei grober Fahrlässigkeit oder Vorsatz des Veranstalters (außer Nr. 4) oder aufgrund der Verletzung wesentlicher Vertragspflichten. Dabei wird der Schadensersatzanspruch auf den Ersatz des vorhersehbaren, typischen Schadens beschränkt. Weitergehende Haftungen sind ausgeschlossen.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Es ist untersagt, Fackeln, Grills, Stromerzeugungsaggregate, pyrotechnische Gegenstände, Waffen aller Art, Trockeneis, CS-Gas, Pfefferspray, brennbare Flüssigkeiten, Himmelslaternen, Soundsysteme sowie sonstige gefährliche Gegenstände auf das Veranstaltungsgelände mitzunehmen. Bei Verstoß gegen gesetzliche Vorschriften oder diese Regelungen kann ein Verweis vom Veranstaltungsgelände erfolgen. In diesem Fall ist eine Rückvergütung oder Schadensersatz ausgeschlossen, soweit dem Veranstalter nicht grobe Fahrlässigkeit oder Vorsatz zur Last gelegt werden kann.<br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Fotografieren für den privaten Gebrauch ist grundsätzlich nicht gestattet. Mitschnitte jeglicher Art sind ohne die explizite Genehmigung des Veranstalters oder eines Künstlers verboten, und die Veröffentlichung solcher Aufnahmen wird strafrechtlich verfolgt.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Müllablagerungen (speziell Sperrmüll, Wohnungseinrichtungen usw.) jeglicher Art werden zur Anzeige gebracht. Müllsäcke werden kostenlos am Eingang ausgehändigt und müssen an der dafür vorgesehenen Müllsammelstation abgegeben werden, die im Geländeplan eingezeichnet ist.<br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Der Besucher hat sein Fahrzeug so abzustellen und ein eventuelles Zelt so aufzubauen, dass eine Behinderung der Einsatzkräfte ausgeschlossen ist und eine Zufahrt zu den sanitären Anlagen jederzeit möglich ist. Beachtet der Besucher diese Vorschriften nicht, so ist der Veranstalter berechtigt, falsch abgestellte Fahrzeuge durch geeignete und angemessene Maßnahmen auf Kosten und Risiko des Besuchers umzustellen.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Das Abstellen und Parken des KFZ erfolgt auf eigene Gefahr. Der Veranstalter haftet nicht für Schäden, die durch andere Fahrzeuge, andere Besucher oder sonstige Dritte entstehen. Die Benutzung des Campingplatzes geschieht auf eigene Gefahr. Das Campen beim Veranstaltungsort ist nur auf den als Campingplatz ausgewiesenen Flächen genehmigt. Den hierfür abgestellten Ordnungskräften ist unbedingt Folge zu leisten. Das Campen auf den umliegenden Wiesen bzw. Privatgeländen ist strengstens untersagt. Bei Zuwiderhandlungen muss mit einer Anzeige seitens der jeweiligen Besitzer der Flächen gerechnet werden.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Das Hausrecht wird vom Veranstalter sowie seinem Ordnungs- und Sicherheitspersonal ausgeübt. Auf dem Festivalgelände gilt die Haus- bzw. Festivalgeländeordnung sowie die Park- und Campingordnung des Veranstalters. Den Weisungen des Personals des Veranstalters ist Folge zu leisten.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Besuchern ist es untersagt, auf dem Festivalgelände verbotene Gegenstände mitzuführen, körperliche Gewalt gegen andere Besucher, Personal des Veranstalters oder sonstige Dritte auszuüben, Gegenstände auf die Bühne oder andere Besucher zu werfen, außerhalb der Toiletten zu urinieren oder die Notdurft zu verrichten, bauliche Anlagen, Wände, Sachen etc. zu bemalen, zu besprühen oder zu beschmutzen, ohne vorherige schriftliche Zustimmung des Veranstalters gewerblich Handel zu treiben, Marketingaktionen oder Werbemaßnahmen durchzuführen. Werbemaßnahmen, d.h. die Bewerbung eines Produkts, einer Dienstleistung, eines Unternehmens oder einer Marke, sowie das Anbringen von Dekorationen und sonstigen Gegenständen sind auf dem gesamten Festivalgelände grundsätzlich untersagt. Weiterhin ist es verboten, Bereiche und Räume zu betreten, die für Besucher nicht freigegeben sind, sowie auf Bühnen, Häuser, Ruinen, Zelte, Traversen oder ähnliches zu klettern.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Der Veranstalter behält sich das Recht vor, die Veranstaltung örtlich und/oder terminlich zu verlegen, soweit dies für den Besucher zumutbar ist und 1 Woche vor Veranstaltungsbeginn bekannt gegeben wird. Ebenso behält er sich das Recht vor, das Programm zu ändern. Absagen oder Änderungen werden durch den Veranstalter so früh wie möglich bekannt gegeben und können auch noch nach Beginn des Festivals aus wichtigem Grund stattfinden. Hieraus können seitens des Festivalbesuchers keine Ansprüche jedweder Art abgeleitet werden, es sei denn, der Veranstalter handelt grob fahrlässig oder mit Vorsatz.<br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Der Veranstalter haftet nicht für verloren gegangene oder gestohlene Sachen.<br><br></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item {""fontSize"":""medium""} -->
+<li class=""has-medium-font-size""><strong>Jugendschutz</strong></li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>16.1. Auf dem Festivalgelände gelten die Bestimmungen des Gesetzes zum Schutz der Jugend in der Öffentlichkeit.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>16.2. Menschen unter 21 Jahren ist der Aufenthalt auf dem Festivalgelände nicht gestattet.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {""ordered"":true,""start"":17} -->
+<ol start=""17"" class=""wp-block-list""><!-- wp:list-item -->
+<li>Für den Veranstalter ist die Einhaltung der geltenden Datenschutzbestimmungen, im Rahmen der Personalisierung des Tickets, eine Selbstverständlichkeit. Der Veranstalter nutzt die Daten im Rahmen der gesetzlichen Bestimmungen zur Durchführung des Vertrages. Der Kunde kann einer Nutzung oder Übermittlung seiner Daten für Zwecke der Markt- oder Meinungsforschung beim Veranstalter jederzeit widersprechen. Wenn der Kunde dieser Verwendung seiner Angaben insgesamt widersprechen möchte, genügt eine Nachricht an: Viva la Fiasko UG.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>Viva la Fiasko UG</strong> vertreten durch<br>Kevin Matthiessen<br>Anschrift: An der Kreisstraße 5, 24392 Scheggerott<br>E-Mail: <a href=""mailto:info@vivalafiasko.de"">info@vivalafiasko.de</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Registereintrag<br>Eintragung im Handelsregister. Registergericht: Flensburg Registernummer: HRB 17395 FL</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {""ordered"":true,""start"":18} -->
+<ol start=""18"" class=""wp-block-list""><!-- wp:list-item -->
+<li>Tiere dürfen nicht auf das Festivalgelände mitgebracht werden.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Die Abgabe von Getränken auf dem Festivalgelände erfolgt in Plastikbechern und Glasflaschen, für die ein Pfand erhoben wird.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Mit dem Betreten des Festivalgeländes willigt der Festivalbesucher unwiderruflich in die unentgeltliche Verwendung seines Bildnisses und seiner</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Stimme für Fotografien und/oder Aufzeichnungen von Bild und/oder Ton, die vom Veranstalter oder dessen Beauftragten in Zusammenhang mit der Veranstaltung erstellt werden, sowie deren anschließender Verwertung in allen gegenwärtigen und zukünftigen Medien (wie insbesondere in Form von Ton- und Bildträgern), sowie der digitalen Verbreitung, z.B. über das Internet, ein.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {""ordered"":true,""start"":21} -->
+<ol start=""21"" class=""wp-block-list""><!-- wp:list-item -->
+<li>Für alle Streitigkeiten auf vertraglicher oder gesetzlicher Grundlage wird – soweit gesetzlich zulässig – als Gerichtsstand Berlin vereinbart; es gilt deutsches Recht.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Sollte eine Klausel unwirksam sein, werden die übrigen Klauseln davon nicht berührt. Anstelle der unwirksamen Klausel tritt die gesetzliche Regelung.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list --></div>
+<!-- /wp:group -->",,2025-02-03,page,https://vivalafiasko.de/rechtliches/agb/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,agb,,,495,rechtliches,0,closed,closed,2025-02-03
+517,"Regeln &amp; Hinweise","<!-- wp:heading {""style"":{""spacing"":{""margin"":{""top"":""var:preset|spacing|50""}}}} -->
+<h2 class=""wp-block-heading"" style=""margin-top:var(--wp--preset--spacing--50)"">Regeln &amp; Hinweise</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Damit alle ein gutes Festivalerlebnis haben, gibt es ein paar einfache Regeln, die für alle gelten. Sie helfen dabei, das Miteinander respektvoll zu gestalten und den Platz in einem guten Zustand zu halten. Bitte nehmt euch einen Moment Zeit, sie durchzulesen – dann steht einem großartigen Wochenende nichts im Weg.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:aab/group-accordion {""uniqueId"":""9d58a259_0""} -->
+<div class=""wp-block-aab-group-accordion searchable aagb_accordion_9d58a259_0 click"" id=""group-accordion-9d58a259_0""><!-- wp:aab/accordion-item {""heading"":""Unterstützung bei diskriminierenden Vorfällen"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Unterstützung bei diskriminierenden Vorfällen</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Falls du Opfer oder Zeuge von Rassismus, Sexismus, Gewalt oder Ausgrenzung wirst, steht dir unser Awareness-Team zur Seite. Das Team ist während des gesamten Events vor Ort, und außerhalb des Geländes kannst du uns unter [Kontakt-Email] erreichen.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Kein Eintritt unter 18 Jahren"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Kein Eintritt unter 18 Jahren</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Der Zugang zum Campingplatz ist nur für Besucher ab 18 Jahren erlaubt. Wir empfehlen, ab 21 Jahren zu kommen, um das Erlebnis voll zu genießen.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Keine Haustiere erlaubt"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Keine Haustiere erlaubt</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Haustiere, wie Hunde oder Hamster, sind auf dem Gelände leider nicht gestattet. Wir bitten um Verständnis und bitten, Kinder und Tiere zu Hause zu lassen.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Kamera mit Rücksicht"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Kamera mit Rücksicht</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Du darfst deine Kamera gerne mitbringen, aber bitte sei sensibel im Umgang mit feiernden Menschen und respektiere die Privatsphäre anderer Gäste. Wir werden uns um eine umfassende Dokumentation kümmern.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Drohnen sind nicht erlaubt – Konsequenzen bei Missachtung"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Drohnen sind nicht erlaubt – Konsequenzen bei Missachtung</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Drohnenflüge sind aus Sicherheitsgründen strikt untersagt. Gäste, die diese Regel missachten, werden vom Festival ausgeschlossen und es wird gegebenenfalls Anzeige erstattet. Wir bitten um dein Verständnis.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Keine Barrierefreiheit vorhanden"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Keine Barrierefreiheit vorhanden</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Bitte beachte, dass der Campingplatz derzeit keine Barrierefreiheit bietet. Wir bitten Menschen die behindert werden, dies bei der Planung zu berücksichtigen.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Selbstversorgung erlaubt, aber auch kulinarische Vielfalt"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Selbstversorgung erlaubt, aber auch kulinarische Vielfalt</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Du kannst deine eigenen Speisen und Getränke mitbringen, aber wir bieten auch eine Vielzahl an leckeren Speisen und Getränken an. Darunter auch vegetarische und vegane Köstlichkeiten.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Sicherheit geht vor"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Sicherheit geht vor</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Offenes Feuer ist auf dem Campingplatz nicht gestattet. Bitte verzichte auch auf Soundsysteme oder Generatoren.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Respektvolles Miteinander"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Respektvolles Miteinander</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Wir dulden keinerlei Form von Rassismus, Sexismus, Homophobie, Antisemitismus oder Menschenfeindlichkeit. Politische Gruppen wie die AfD sind ebenfalls unerwünscht.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Glas erlaubt, aber vorsichtig"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Glas erlaubt, aber vorsichtig</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Glasflaschen und -behälter sind erlaubt, bitte gehe achtsam damit um und sorge für deren sichere Entsorgung.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Öffnungszeiten des Campingplatzes"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Öffnungszeiten des Campingplatzes</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Der Campingplatz ist ab Freitag, 10:00 Uhr geöffnet und schließt am Montag um 15:00 Uhr. Bitte respektieren Sie diese Zeiten.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Keine Möbel oder Hausrat"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Keine Möbel oder Hausrat</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Vermeiden Sie es, alte Möbel oder Hausrat mitzubringen. Der Platz sollte sauber und ordentlich bleiben.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item -->
+
+<!-- wp:aab/accordion-item {""heading"":""Wohnmobile und Camper"",""anchorLinkShow"":false,""readMoreText"":""Read More"",""faqSchema"":false,""step"":false,""stepText"":""Continue"",""checkList"":false,""button_show"":false} -->
+<style>.aagb__accordion_container.no-pro-plan .aagb__accordion_body { padding:  10px !important; }</style><div class=""wp-block-aab-accordion-item aagb__accordion_container panel"" style=""border:1px solid #cccccc;margin-top:0px;margin-bottom:15px;border-radius:0px""><div class=""aagb__accordion_head aab_right_icon  "" data-active=""false"" style=""background-color:transparent;padding:10px 15px 10px 15px""><div class=""aagb__accordion_heading aab_right_icon aagb_right_link""><div class=""head_content_wrapper""><div class=""title_wrapper""><h4 class=""aagb__accordion_title"" style=""margin:0;color:#333333"">Wohnmobile und Camper</h4></div><p class=""aagb__accordion_subheading"" style=""margin:0;color:#333333""></p></div></div><div class=""aagb__accordion_icon"" style=""color:#333333;background-color:transparent""><div class=""aagb__icon_dashicons_box""><span class=""aagb__icon dashicons dashicons-plus-alt2""></span></div></div></div><div class=""aagb__accordion_body   "" role=""region"" style=""background-color:transparent;border-top-color:1px solid #cccccc;padding:10px 15px 10px 15px""><div class=""aagb__accordion_component ""><!-- wp:paragraph -->
+<p>Wohnmobile und Camper dürfen nur auf dem dafür vorgesehenen Parkplatz abgestellt werden.</p>
+<!-- /wp:paragraph --></div></div></div>
+<!-- /wp:aab/accordion-item --></div>
+<!-- /wp:aab/group-accordion -->
+
+<!-- wp:html -->
+<style>
+.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: var(--wp--style--global--wide-size) !important;}
+</style>
+<!-- /wp:html -->",,2025-02-03,page,https://vivalafiasko.de/info/regeln-gebote/,,,,,,,,publish,1,user26122304054222,vivalafiasko@gmail.com,,,regeln-gebote,,,92,info,0,closed,closed,2025-02-03

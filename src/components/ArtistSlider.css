@@ -1,0 +1,31 @@
+.artist-slider-container {
+  position: relative;
+  max-width: 84rem; /* Equivalent to max-w-7xl */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* Equivalent to px-4 */
+  padding-right: 1rem; /* Equivalent to px-4 */
+}
+
+.embla__container {
+  display: flex;
+  margin-left: -1rem; /* Equivalent to -ml-4 */
+}
+
+.embla__slide {
+  flex: none;
+  width: 33.333%; /* Display 3 elements at once */
+  padding-left: 1rem; /* Equivalent to pl-4 */
+}
+
+.embla__button {
+  display: none; /* Hide navigation buttons */
+}
+
+.embla__button--prev {
+  left: 0;
+}
+
+.embla__button--next {
+  right: 0;
+}

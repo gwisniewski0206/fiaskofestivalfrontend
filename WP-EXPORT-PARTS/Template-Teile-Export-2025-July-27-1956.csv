@@ -1,0 +1,47 @@
+﻿ID,Title,Content,Excerpt,Date,"Post Type",Permalink,"Image URL","Image Title","Image Caption","Image Description","Image Alt Text","Image Featured","Attachment URL",Themes,Template-Teil-Bereiche,Status,"Author ID","Author Username","Author Email","Author First Name","Author Last Name",Slug,Format,Template,Parent,"Parent Slug",Order,"Comment Status","Ping Status","Post Modified Date"
+96,Header,"<!-- wp:group {""align"":""full"",""style"":{""spacing"":{""padding"":{""bottom"":""var:preset|spacing|20"",""top"":""var:preset|spacing|20""}}},""layout"":{""inherit"":true,""type"":""constrained""}} -->
+<div class=""wp-block-group alignfull"" style=""padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)""><!-- wp:group {""align"":""wide"",""style"":{""spacing"":{""padding"":{""top"":""var:preset|spacing|20"",""bottom"":""var:preset|spacing|20"",""left"":""0"",""right"":""0""},""margin"":{""top"":""0"",""bottom"":""-19px""}}},""layout"":{""type"":""flex"",""flexWrap"":""nowrap"",""justifyContent"":""space-between""}} -->
+<div class=""wp-block-group alignwide"" style=""margin-top:0;margin-bottom:-19px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0""><!-- wp:group {""layout"":{""type"":""flex"",""flexWrap"":""nowrap""}} -->
+<div class=""wp-block-group""><!-- wp:site-logo /-->
+
+<!-- wp:group -->
+<div class=""wp-block-group""><!-- wp:site-title {""style"":{""typography"":{""textTransform"":""uppercase""}},""fontSize"":""medium""} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {""layout"":{""type"":""flex"",""flexWrap"":""nowrap""}} -->
+<div class=""wp-block-group""><!-- wp:navigation {""ref"":95,""layout"":{""type"":""flex"",""setCascadingProperties"":true,""justifyContent"":""right""}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->",,2025-01-27,wp_template_part,https://vivalafiasko.de/header/,,,,,,,,extendable,header,publish,1,user26122304054222,vivalafiasko@gmail.com,,,header,,,0,0,0,closed,closed,2025-01-29
+310,Footer,"<!-- wp:group {""align"":""full"",""style"":{""spacing"":{""padding"":{""top"":""var:preset|spacing|30"",""bottom"":""var:preset|spacing|30""}}},""layout"":{""inherit"":true,""type"":""constrained""}} -->
+<div class=""wp-block-group alignfull"" style=""padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)""><!-- wp:group {""align"":""wide"",""layout"":{""type"":""flex"",""flexWrap"":""nowrap"",""justifyContent"":""space-between""}} -->
+<div class=""wp-block-group alignwide""><!-- wp:group {""style"":{""spacing"":{""blockGap"":""1rem""}},""layout"":{""type"":""flex"",""flexWrap"":""nowrap""}} -->
+<div class=""wp-block-group""><!-- wp:site-logo /-->
+
+<!-- wp:group -->
+<div class=""wp-block-group""><!-- wp:site-title {""fontSize"":""medium""} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {""style"":{""layout"":{""selfStretch"":""fill"",""flexSize"":null}},""layout"":{""type"":""flex"",""justifyContent"":""space-between"",""flexWrap"":""nowrap""}} -->
+<div class=""wp-block-buttons""><!-- wp:button {""width"":75,""className"":""is-style-outline"",""style"":{""border"":{""radius"":""0px""},""typography"":{""fontSize"":""10px""}}} -->
+<div class=""wp-block-button has-custom-width wp-block-button__width-75 has-custom-font-size is-style-outline"" style=""font-size:10px""><a class=""wp-block-button__link wp-element-button"" href=""https://vivalafiasko.de/impressunm/"" style=""border-radius:0px"">Impressum</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {""width"":75,""className"":""is-style-outline"",""style"":{""border"":{""radius"":""0px""},""typography"":{""fontSize"":""10px""}}} -->
+<div class=""wp-block-button has-custom-width wp-block-button__width-75 has-custom-font-size is-style-outline"" style=""font-size:10px""><a class=""wp-block-button__link wp-element-button"" href=""https://vivalafiasko.de/datenschutz/"" style=""border-radius:0px"">Datenschutz</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:group {""layout"":{""type"":""flex"",""flexWrap"":""nowrap""}} -->
+<div class=""wp-block-group""><!-- wp:social-links {""iconColor"":""foreground"",""iconColorValue"":""#0B0620"",""size"":""has-small-icon-size"",""className"":""is-style-logos-only"",""style"":{""spacing"":{""blockGap"":""1rem""}},""layout"":{""type"":""flex"",""flexWrap"":""nowrap"",""justifyContent"":""right""}} -->
+<ul class=""wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only""><!-- wp:social-link {""url"":""https://www.instagram.com/"",""service"":""instagram""} /-->
+
+<!-- wp:social-link {""url"":""https://www.facebook.com/"",""service"":""facebook""} /-->
+
+<!-- wp:social-link {""url"":""https://twitter.com/"",""service"":""twitter""} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->",,2025-01-30,wp_template_part,https://vivalafiasko.de/footer/,,,,,,,,extendable,footer,publish,1,user26122304054222,vivalafiasko@gmail.com,,,footer,,,0,0,0,closed,closed,2025-01-30

@@ -1,0 +1,195 @@
+@media (max-width: 768px) {
+    .tmc-team-member-card {
+        flex: 2 2 50%; /* Makes each card take up the full width */ /* Ensures no extra constraints on width */
+        max-width: fit-content;
+		min-width: 140px !important;
+		margin-bottom: -10px !important;
+                        
+    }
+	
+	.tmc-profile-photo > img {
+		max-width: 130px !important;
+	}
+	
+	
+	.tmc-card-front h3 {
+		    width: fit-content;
+    background: white;
+    display: flex
+;
+    padding: 0.5vh;
+    margin-top: -30px;
+	}
+	
+	.credits {
+		margin-top: -33px !important;
+    background: white;
+    line-height: 1.2;
+    padding: 6px;
+	}
+	
+	.sc-icon, .ig-icon {
+		max-width: 25px !important; 
+	}
+	
+	.press-text {
+		    width: 140px !important;
+	}
+
+}
+
+.tmc-team-members-container {
+	max-width: 75vw;
+}
+
+.tmc-team-members-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers the items on each line */
+    gap: 25px; /* Adds space between the items */
+}
+
+.tmc-team-member-card {
+	    min-height: 20vh;
+    min-width: 20vh;
+    perspective: 1000px;
+    transition: transform 0.6s ease;
+    margin-bottom: 100px;
+	.tmc-team-member-card {
+    overflow: hidden;
+}
+}
+
+.tmc-team-member-card .tmc-card-inner {
+	
+    transform-style: preserve-3d; /* Allows child elements to transform in 3D space */
+    transition: transform 0.6s ease; /* Smooth transition for the inner card */
+    position: relative;
+	perspective: 1000px;
+}
+
+.tmc-team-member-card.tmc-3d-hover .tmc-card-inner, .tmc-team-member-card:focus .tmc-card-inner, .tmc-team-member-card:focus-within .tmc-card-inner  {
+    transform: rotateY(180deg); /* Rotates the card 180 degrees on hover */
+	
+}
+
+.tmc-card-back:focus-within {
+	opacity: 1 !important;
+}
+
+.tmc-team-member-card.tmc-3d-hover .tmc-card-front, .tmc-team-member-card:focus .tmc-card-front,    {
+    opacity: 0;
+}
+
+.tmc-team-member-card.tmc-3d-hover .tmc-card-back, .tmc-team-member-card:focus .tmc-card-back,  .tmc-team-member-card:focus-within .tmc-card-inner  {
+    opacity: 1;
+}
+
+.tmc-card-front, .tmc-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hides the back side when facing away */
+	   -webkit-backface-visibility: hidden;
+	background:white;
+	 will-change: transform;
+	display: block;
+	    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.tmc-card-front {
+    background: #fff; /* Front side styles */
+	z-index: 2;
+	    opacity: 1;
+}
+
+.tmc-card-back {
+    background: #f0f0f0; /* Back side styles */
+    transform: rotateY(180deg);
+	    opacity: 0;
+    -webkit-transform: rotateY(180deg); /* Flips the back side so it appears correct when rotated */
+	border-top: 2px solid black;
+	z-index: 1;
+}
+
+.tmc-profile-photo > img {
+	max-width:20vh;
+	position: relative;
+    z-index: -1;
+}
+
+.tmc-card-front h3 {
+    width: fit-content;
+    background: white;
+    display: flex;
+    padding: 0.5vh;
+	margin-top: -40px;
+}
+
+.press-text {
+	font-size: 9pt;
+	width: 20vh;
+	background:white;
+}
+
+.credits {
+	margin-top: -40px;
+    background: white;
+}
+
+.sc-icon {
+	max-width: 4vh;
+} 
+
+.ig-icon {max-width: 4vh;}
+
+
+.read-more-link {
+    color: #0073aa;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.read-more-link:hover {
+    text-decoration: underline;
+}
+
+.tmc-lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.tmc-lightbox-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+.tmc-lightbox-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.tmc-lightbox-close:hover {
+    background: #555;
+}

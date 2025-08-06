@@ -67,6 +67,7 @@ const ArtistSlider: React.FC = () => {
       loop: true,
       align: 'start',
       dragFree: true,
+      slidesToScroll: 1,
     },
     [AutoScroll({ speed: 0.5, stopOnInteraction: true, stopOnMouseEnter: true, stopOnFocusIn: true } as CustomAutoScrollOptions)]
   );
